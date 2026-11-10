@@ -179,7 +179,7 @@ export function createCloud({ canvas, labelLayer, onPick, onHover }) {
   function setFocus(item) {
     focus = item;
     if (!item) return;
-    flyTo(item.target.clone(), (item.type === 'image' ? 30 : 42) * Math.sqrt(homeDistance()));
+    flyTo(item.target.clone(), (item.type === 'image' ? 30 : 58) * Math.sqrt(homeDistance()));
     // Up close the thumbnail is soft; swap in the full image once.
     if (item.type === 'image' && !item.sharp) {
       item.sharp = true;
@@ -202,16 +202,30 @@ export function createCloud({ canvas, labelLayer, onPick, onHover }) {
   const pointer = new THREE.Vector2();
   let downAt = null;
 
+  const onScreen = new THREE.Vector3();
   function pick(ev) {
     const r = canvas.getBoundingClientRect();
     pointer.set(((ev.clientX - r.left) / r.width) * 2 - 1, -((ev.clientY - r.top) / r.height) * 2 + 1);
     raycaster.setFromCamera(pointer, camera);
     const visible = (it) => it.emph > 0.4 && (it.type !== 'image' || it.sprite.material.opacity > 0.3);
     const s = raycaster.intersectObjects(sprites.children, false).find((h) => visible(h.object.userData.item));
-    if (s) return s.object.userData.item;
-    const d = raycaster.intersectObject(dots, false)
-      .map((h) => texts[h.index]).find(visible);
-    return d || null;
+
+    // Dots are a few pixels wide, so pick them on screen: the nearest dot
+    // within a finger's or cursor's reach of the pointer.
+    const reach = ev.pointerType === 'touch' ? 18 : 10;
+    let dot = null, best = reach * reach, dotDepth = Infinity;
+    for (const it of texts) {
+      if (!visible(it)) continue;
+      onScreen.copy(it.pos).project(camera);
+      if (onScreen.z > 1) continue;
+      const dx = (onScreen.x * 0.5 + 0.5) * r.width - (ev.clientX - r.left);
+      const dy = (-onScreen.y * 0.5 + 0.5) * r.height - (ev.clientY - r.top);
+      const d2 = dx * dx + dy * dy;
+      if (d2 < best) { best = d2; dot = it; dotDepth = it.pos.distanceTo(camera.position); }
+    }
+    // A dot in front of a picture wins; otherwise the picture does.
+    if (s && dot) return dotDepth < s.distance ? dot : s.object.userData.item;
+    return s ? s.object.userData.item : dot;
   }
 
   canvas.addEventListener('pointerdown', (ev) => {
