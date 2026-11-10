@@ -1,0 +1,560 @@
+{
+ "haberer": [
+  {
+   "src": "img/haberer-1.webp",
+   "thumb": "img/haberer-1-t.webp",
+   "w": 683,
+   "h": 509,
+   "caption": "",
+   "figma": "1-abrr (23) 1"
+  },
+  {
+   "src": "img/haberer-2.webp",
+   "thumb": "img/haberer-2-t.webp",
+   "w": 642,
+   "h": 509,
+   "caption": "",
+   "figma": "1-abrr (17) 1"
+  },
+  {
+   "src": "img/haberer-3.webp",
+   "thumb": "img/haberer-3-t.webp",
+   "w": 537,
+   "h": 518,
+   "caption": "",
+   "figma": "br1 1"
+  }
+ ],
+ "pierre-koeing": [
+  {
+   "src": "img/pierre-koeing-1.webp",
+   "thumb": "img/pierre-koeing-1-t.webp",
+   "w": 754,
+   "h": 510,
+   "caption": "",
+   "figma": "DSC_9032 1"
+  },
+  {
+   "src": "img/pierre-koeing-2.webp",
+   "thumb": "img/pierre-koeing-2-t.webp",
+   "w": 405,
+   "h": 510,
+   "caption": "",
+   "figma": "003 1"
+  },
+  {
+   "src": "img/pierre-koeing-3.webp",
+   "thumb": "img/pierre-koeing-3-t.webp",
+   "w": 406,
+   "h": 511,
+   "caption": "",
+   "figma": "007 1"
+  }
+ ],
+ "billyourself": [
+  {
+   "src": "img/billyourself-1.webp",
+   "thumb": "img/billyourself-1-t.webp",
+   "w": 514,
+   "h": 514,
+   "caption": "",
+   "figma": "בן מיצב שבוע העיצוב _05 1"
+  },
+  {
+   "src": "img/billyourself-2.webp",
+   "thumb": "img/billyourself-2-t.webp",
+   "w": 700,
+   "h": 517,
+   "caption": "",
+   "figma": "בן מיצב שבוע העיצוב _12 1"
+  },
+  {
+   "src": "img/billyourself-3.webp",
+   "thumb": "img/billyourself-3-t.webp",
+   "w": 514,
+   "h": 514,
+   "caption": "",
+   "figma": "בן מיצב שבוע העיצוב _48 1"
+  }
+ ],
+ "mirage": [
+  {
+   "src": "img/mirage-1.webp",
+   "thumb": "img/mirage-1-t.webp",
+   "w": 345,
+   "h": 517,
+   "caption": "",
+   "figma": "DSC02303 1"
+  },
+  {
+   "src": "img/mirage-2.webp",
+   "thumb": "img/mirage-2-t.webp",
+   "w": 345,
+   "h": 517,
+   "caption": "",
+   "figma": "DSC02146 1"
+  },
+  {
+   "src": "img/mirage-3.webp",
+   "thumb": "img/mirage-3-t.webp",
+   "w": 921,
+   "h": 518,
+   "caption": "",
+   "figma": "IMG_2158 1"
+  }
+ ],
+ "broken-ai": [
+  {
+   "src": "img/broken-ai-1.webp",
+   "thumb": "img/broken-ai-1-t.webp",
+   "w": 292,
+   "h": 518,
+   "caption": "",
+   "figma": "IMG_2684 1"
+  },
+  {
+   "src": "img/broken-ai-2.webp",
+   "thumb": "img/broken-ai-2-t.webp",
+   "w": 291,
+   "h": 518,
+   "caption": "",
+   "figma": "IMG_2685 1"
+  },
+  {
+   "src": "img/broken-ai-3.webp",
+   "thumb": "img/broken-ai-3-t.webp",
+   "w": 292,
+   "h": 518,
+   "caption": "",
+   "figma": "IMG_2699 1"
+  },
+  {
+   "src": "img/broken-ai-4.webp",
+   "thumb": "img/broken-ai-4-t.webp",
+   "w": 919,
+   "h": 519,
+   "caption": "",
+   "figma": "Screenshot 2026-03-09 at 14.39.22 1"
+  }
+ ],
+ "teaching": [
+  {
+   "src": "img/teaching-1.webp",
+   "thumb": "img/teaching-1-t.webp",
+   "w": 776,
+   "h": 518,
+   "caption": "Liepaja, RTU, Latvia",
+   "figma": "2025-09 UPDATE-44 1"
+  },
+  {
+   "src": "img/teaching-2.webp",
+   "thumb": "img/teaching-2-t.webp",
+   "w": 292,
+   "h": 520,
+   "caption": "Liepaja, RTU, Latvia",
+   "figma": "IMG_1608 1"
+  },
+  {
+   "src": "img/teaching-3.webp",
+   "thumb": "img/teaching-3-t.webp",
+   "w": 389,
+   "h": 519,
+   "caption": "KISD",
+   "figma": "_1211116 1"
+  },
+  {
+   "src": "img/teaching-4.webp",
+   "thumb": "img/teaching-4-t.webp",
+   "w": 292,
+   "h": 519,
+   "caption": "KISD",
+   "figma": "IMG_9964 1"
+  }
+ ],
+ "nolligan": [
+  {
+   "src": "img/nolligan-1.webp",
+   "thumb": "img/nolligan-1-t.webp",
+   "w": 521,
+   "h": 521,
+   "caption": "",
+   "figma": "nolligan03 1"
+  },
+  {
+   "src": "img/nolligan-2.webp",
+   "thumb": "img/nolligan-2-t.webp",
+   "w": 521,
+   "h": 521,
+   "caption": "",
+   "figma": "Untitled1_1 1"
+  },
+  {
+   "src": "img/nolligan-3.webp",
+   "thumb": "img/nolligan-3-t.webp",
+   "w": 838,
+   "h": 521,
+   "caption": "TurgotGAN in the BYOD² - Bring Your Own Data exhibition at Dig Shibuya 2025, Tokyo",
+   "figma": "Screenshot 2026-01-21 at 15.32.27 1"
+  }
+ ],
+ "texture-as-interaction": [
+  {
+   "src": "img/texture-as-interaction-1.webp",
+   "thumb": "img/texture-as-interaction-1-t.webp",
+   "w": 443,
+   "h": 332,
+   "caption": "",
+   "figma": "IMG_1577 1"
+  },
+  {
+   "src": "img/texture-as-interaction-2.webp",
+   "thumb": "img/texture-as-interaction-2-t.webp",
+   "w": 615,
+   "h": 430,
+   "caption": "",
+   "figma": "d-1 1"
+  },
+  {
+   "src": "img/texture-as-interaction-3.webp",
+   "thumb": "img/texture-as-interaction-3-t.webp",
+   "w": 389,
+   "h": 460,
+   "caption": "",
+   "figma": "Screenshot 2024-04-15 at 16.51.09 1"
+  },
+  {
+   "src": "img/texture-as-interaction-4.webp",
+   "thumb": "img/texture-as-interaction-4-t.webp",
+   "w": 204,
+   "h": 341,
+   "caption": "",
+   "figma": "Gemini_Generated_Image_ql57rhql57rhql57 1"
+  },
+  {
+   "src": "img/texture-as-interaction-5.webp",
+   "thumb": "img/texture-as-interaction-5-t.webp",
+   "w": 211,
+   "h": 352,
+   "caption": "",
+   "figma": "Gemini_Generated_Image_ih5lemih5lemih5l 1"
+  }
+ ],
+ "ghana-library": [
+  {
+   "src": "img/ghana-library-1.webp",
+   "thumb": "img/ghana-library-1-t.webp",
+   "w": 773,
+   "h": 341,
+   "caption": "",
+   "figma": "c1 1"
+  },
+  {
+   "src": "img/ghana-library-2.webp",
+   "thumb": "img/ghana-library-2-t.webp",
+   "w": 214,
+   "h": 430,
+   "caption": "",
+   "figma": "c3 1"
+  },
+  {
+   "src": "img/ghana-library-3.webp",
+   "thumb": "img/ghana-library-3-t.webp",
+   "w": 366,
+   "h": 489,
+   "caption": "",
+   "figma": "c2 1"
+  },
+  {
+   "src": "img/ghana-library-4.webp",
+   "thumb": "img/ghana-library-4-t.webp",
+   "w": 501,
+   "h": 489,
+   "caption": "",
+   "figma": "c4 1"
+  }
+ ],
+ "parking-facade": [
+  {
+   "src": "img/parking-facade-1.webp",
+   "thumb": "img/parking-facade-1-t.webp",
+   "w": 776,
+   "h": 517,
+   "caption": "",
+   "figma": "p2 1"
+  },
+  {
+   "src": "img/parking-facade-2.webp",
+   "thumb": "img/parking-facade-2-t.webp",
+   "w": 524,
+   "h": 517,
+   "caption": "",
+   "figma": "p4 1"
+  },
+  {
+   "src": "img/parking-facade-3.webp",
+   "thumb": "img/parking-facade-3-t.webp",
+   "w": 370,
+   "h": 523,
+   "caption": "",
+   "figma": "p1 1"
+  }
+ ],
+ "beersheva-facade": [
+  {
+   "src": "img/beersheva-facade-1.webp",
+   "thumb": "img/beersheva-facade-1-t.webp",
+   "w": 503,
+   "h": 395,
+   "caption": "",
+   "figma": "bs1 1"
+  },
+  {
+   "src": "img/beersheva-facade-2.webp",
+   "thumb": "img/beersheva-facade-2-t.webp",
+   "w": 217,
+   "h": 427,
+   "caption": "",
+   "figma": "bs2 1"
+  },
+  {
+   "src": "img/beersheva-facade-3.webp",
+   "thumb": "img/beersheva-facade-3-t.webp",
+   "w": 485,
+   "h": 427,
+   "caption": "",
+   "figma": "bs2 2"
+  },
+  {
+   "src": "img/beersheva-facade-4.webp",
+   "thumb": "img/beersheva-facade-4-t.webp",
+   "w": 380,
+   "h": 415,
+   "caption": "",
+   "figma": "bs3 1"
+  },
+  {
+   "src": "img/beersheva-facade-5.webp",
+   "thumb": "img/beersheva-facade-5-t.webp",
+   "w": 300,
+   "h": 468,
+   "caption": "",
+   "figma": "bs5 1"
+  }
+ ],
+ "lod": [
+  {
+   "src": "img/lod-1.webp",
+   "thumb": "img/lod-1-t.webp",
+   "w": 598,
+   "h": 526,
+   "caption": "",
+   "figma": "Screenshot 2025-12-15 at 23.54.41 1"
+  },
+  {
+   "src": "img/lod-2.webp",
+   "thumb": "img/lod-2-t.webp",
+   "w": 558,
+   "h": 497,
+   "caption": "",
+   "figma": "Screenshot 2026-03-10 at 16.57.11 1"
+  },
+  {
+   "src": "img/lod-3.webp",
+   "thumb": "img/lod-3-t.webp",
+   "w": 708,
+   "h": 497,
+   "caption": "",
+   "figma": "01 1"
+  }
+ ],
+ "huji-innovate": [
+  {
+   "src": "img/huji-innovate-1.webp",
+   "thumb": "img/huji-innovate-1-t.webp",
+   "w": 707,
+   "h": 503,
+   "caption": "",
+   "figma": "Screen Shot 2026-03-10 at 18.00.06 1"
+  },
+  {
+   "src": "img/huji-innovate-2.webp",
+   "thumb": "img/huji-innovate-2-t.webp",
+   "w": 671,
+   "h": 503,
+   "caption": "",
+   "figma": "IMG_0635 1"
+  },
+  {
+   "src": "img/huji-innovate-3.webp",
+   "thumb": "img/huji-innovate-3-t.webp",
+   "w": 463,
+   "h": 503,
+   "caption": "",
+   "figma": "IMG_0633 1"
+  }
+ ],
+ "beit-hanoar": [
+  {
+   "src": "img/beit-hanoar-1.webp",
+   "thumb": "img/beit-hanoar-1-t.webp",
+   "w": 770,
+   "h": 385,
+   "caption": "",
+   "figma": "65dcfa1ac2b5a3006cc0e949_B01 1"
+  },
+  {
+   "src": "img/beit-hanoar-2.webp",
+   "thumb": "img/beit-hanoar-2-t.webp",
+   "w": 513,
+   "h": 385,
+   "caption": "",
+   "figma": "65dcfac1ffbbfd3b22b3f72c_ISO%203X4%2002-min 1"
+  },
+  {
+   "src": "img/beit-hanoar-3.webp",
+   "thumb": "img/beit-hanoar-3-t.webp",
+   "w": 545,
+   "h": 385,
+   "caption": "",
+   "figma": "65dcfb6be1bfe5c1d249e188_combinepdf_Page_4 1"
+  }
+ ],
+ "rewiring-fuxing": [
+  {
+   "src": "img/rewiring-fuxing-1.webp",
+   "thumb": "img/rewiring-fuxing-1-t.webp",
+   "w": 768,
+   "h": 511,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 17.13.50 1"
+  },
+  {
+   "src": "img/rewiring-fuxing-2.webp",
+   "thumb": "img/rewiring-fuxing-2-t.webp",
+   "w": 289,
+   "h": 511,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 17.18.14 1"
+  },
+  {
+   "src": "img/rewiring-fuxing-3.webp",
+   "thumb": "img/rewiring-fuxing-3-t.webp",
+   "w": 289,
+   "h": 511,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 17.18.24 1"
+  },
+  {
+   "src": "img/rewiring-fuxing-4.webp",
+   "thumb": "img/rewiring-fuxing-4-t.webp",
+   "w": 465,
+   "h": 513,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 17.44.33 1"
+  }
+ ],
+ "noord-holland": [
+  {
+   "src": "img/noord-holland-1.webp",
+   "thumb": "img/noord-holland-1-t.webp",
+   "w": 570,
+   "h": 445,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 18.29.04 1"
+  },
+  {
+   "src": "img/noord-holland-2.webp",
+   "thumb": "img/noord-holland-2-t.webp",
+   "w": 553,
+   "h": 442,
+   "caption": "",
+   "figma": "Screenshot 2026-03-13 at 18.31.09 1"
+  }
+ ],
+ "simulation-framework": [
+  {
+   "src": "img/simulation-framework-1.webp",
+   "thumb": "img/simulation-framework-1-t.webp",
+   "w": 723,
+   "h": 340,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 10.40.36 1"
+  },
+  {
+   "src": "img/simulation-framework-2.webp",
+   "thumb": "img/simulation-framework-2-t.webp",
+   "w": 526,
+   "h": 336,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 10.41.00 1"
+  },
+  {
+   "src": "img/simulation-framework-3.webp",
+   "thumb": "img/simulation-framework-3-t.webp",
+   "w": 639,
+   "h": 453,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 10.41.18 1"
+  }
+ ],
+ "physical-virtual": [
+  {
+   "src": "img/physical-virtual-1.webp",
+   "thumb": "img/physical-virtual-1-t.webp",
+   "w": 700,
+   "h": 376,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 11.41.47 1"
+  },
+  {
+   "src": "img/physical-virtual-2.webp",
+   "thumb": "img/physical-virtual-2-t.webp",
+   "w": 744,
+   "h": 395,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 11.40.54 1"
+  },
+  {
+   "src": "img/physical-virtual-3.webp",
+   "thumb": "img/physical-virtual-3-t.webp",
+   "w": 440,
+   "h": 337,
+   "caption": "",
+   "figma": "Screenshot 2026-03-14 at 11.41.07 1"
+  }
+ ],
+ "harav-maimon": [
+  {
+   "src": "img/harav-maimon-1.webp",
+   "thumb": "img/harav-maimon-1-t.webp",
+   "w": 699,
+   "h": 464,
+   "caption": "",
+   "figma": "Screen Shot 2026-03-31 at 18.13.05 1"
+  },
+  {
+   "src": "img/harav-maimon-2.webp",
+   "thumb": "img/harav-maimon-2-t.webp",
+   "w": 344,
+   "h": 464,
+   "caption": "",
+   "figma": "Screen Shot 2026-03-31 at 18.14.35 1"
+  },
+  {
+   "src": "img/harav-maimon-3.webp",
+   "thumb": "img/harav-maimon-3-t.webp",
+   "w": 460,
+   "h": 466,
+   "caption": "",
+   "figma": "Screen Shot 2026-03-31 at 18.14.54 1"
+  },
+  {
+   "src": "img/harav-maimon-4.webp",
+   "thumb": "img/harav-maimon-4-t.webp",
+   "w": 348,
+   "h": 464,
+   "caption": "",
+   "figma": "Screen Shot 2026-03-31 at 18.14.43 1"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ben Drusinsky</title>
+<meta name="description" content="Ben Drusinsky — architect, computational designer and creative technologist, Den Haag. Work shown as a cloud of related images and texts.">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<canvas id="stage" aria-label="A 3D cloud of images and texts from Ben Drusinsky’s work. Drag to turn, scroll to zoom, click an item to open it."></canvas>
+<div id="labels"></div>
+<div id="tip" hidden></div>
+
+<aside id="panel">
+  <header>
+    <h1>Ben Drusinsky</h1>
+    <p class="sub" id="roles"></p>
+  </header>
+
+  <section class="group" id="about-group">
+    <h2><button id="about-toggle" aria-expanded="false">About</button></h2>
+    <div id="about" hidden>
+      <p id="bio"></p>
+    </div>
+    <p class="contact"><span id="email"></span><br><span id="place"></span></p>
+  </section>
+
+  <section class="group">
+    <h2>Show</h2>
+    <div class="chips" id="kinds"></div>
+  </section>
+
+  <section class="group">
+    <h2>Find</h2>
+    <input type="search" id="search" placeholder="a word, an idea…" autocomplete="off" aria-label="Search the work">
+    <div class="chips suggestions" id="suggest"></div>
+    <p class="note mono" id="search-note"></p>
+    <ol id="results"></ol>
+  </section>
+
+  <section class="group" id="index-group">
+    <h2><button id="index-toggle" aria-expanded="false">Index</button></h2>
+    <ol id="index" hidden></ol>
+  </section>
+
+  <section class="group" id="thumb-group">
+    <h2>Thumbnails</h2>
+    <input type="range" id="thumbs" min="40" max="200" value="100" aria-label="Thumbnail size">
+  </section>
+</aside>
+
+<article id="detail" hidden aria-live="polite">
+  <button id="detail-close" aria-label="Close">×</button>
+  <img id="detail-image" alt="">
+  <p id="detail-caption" class="caption"></p>
+  <blockquote id="detail-quote" hidden></blockquote>
+  <p class="kind mono" id="detail-kind"></p>
+  <h2 id="detail-title"></h2>
+  <ul class="meta" id="detail-meta"></ul>
+  <div class="body" id="detail-body"></div>
+  <section id="detail-related">
+    <h3>Placed among</h3>
+    <div id="detail-related-list"></div>
+  </section>
+  <section id="detail-near">
+    <h3>Nearest</h3>
+    <ol id="detail-near-list"></ol>
+  </section>
+</article>
+
+<aside id="key">
+  <div class="key-line"><span class="key-symbol">▭</span> image</div>
+  <div class="key-line"><span class="key-symbol">●</span> passage</div>
+  <div class="key-line is-faint mono" id="key-count"></div>
+</aside>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
