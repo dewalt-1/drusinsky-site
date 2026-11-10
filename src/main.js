@@ -11,7 +11,6 @@ const el = (tag, props = {}, ...children) => {
 
 /* ------------------------------------------------------------------ panel */
 
-$('roles').textContent = PERSON.roles;
 $('bio').textContent = PERSON.bio;
 $('email').textContent = PERSON.email;
 $('place').textContent = PERSON.place;
@@ -25,7 +24,6 @@ function toggler(button, target) {
     button.setAttribute('aria-expanded', String(open));
   });
 }
-toggler($('about-toggle'), $('about'));
 toggler($('index-toggle'), $('index'));
 
 const cloud = createCloud({

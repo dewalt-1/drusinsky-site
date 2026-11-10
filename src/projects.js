@@ -17,7 +17,7 @@ export const PERSON = {
   roles: 'Architect, computational designer, creative technologist',
   email: 'benodru *at* gmail.com',
   place: 'Den Haag, Netherlands',
-  bio: 'Ben Drusinsky is an architect, computational designer, and creative technologist based in the Netherlands. Currently a PhD candidate and adjunct lecturer at the integrated design masters program at Köln International School of Design, and Code and Context at TH Köln computer science department, exploring ecological, critical, and creative computing in the built environment. With a master’s in architecture and industrial design, Ben works in the intersection of architecture, critical making, and speculative design.',
+  bio: 'Ben Drusinsky is an architect, computational designer, and creative technologist based in the Netherlands. Currently a PhD candidate and adjunct lecturer at the Integrated Design Master’s Program at Köln International School of Design, and Code and Context at TH Köln computer science department, exploring ecological, critical, and creative computing in the built environment. With a master’s in architecture and industrial design, Ben works in the intersection of architecture, critical making, and speculative design.',
 };
 
 export const KINDS = ['Architecture', 'Creative technology', 'Teaching', 'Research'];
