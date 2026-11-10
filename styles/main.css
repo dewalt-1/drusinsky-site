@@ -118,6 +118,8 @@ button:focus-visible, input:focus-visible, img:focus-visible { outline: 1px soli
 
 #panel .bio { margin: 6px 0 10px; font-size: 11.5px; line-height: 1.45; }
 #panel .contact { margin: 0 0 18px; font-size: 11.5px; }
+#panel .contact a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 2px; }
+#panel .contact a:hover { text-decoration-color: var(--ink); }
 
 .note { margin: 4px 0 0; font-size: 10.5px; color: var(--dim); }
 .note:empty { display: none; }

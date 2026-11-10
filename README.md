@@ -33,5 +33,9 @@ works from a sub-folder.
   width, height and caption. They were cut from the Figma file "portfolio-1".
 - **Related words for search:** `RELATED` in `src/embedding.js`.
 - **Look:** `styles/main.css`. Type is ABC Areal where installed, else Arial.
+- **CV:** `public/cv.html`, generated from the LaTeX source in
+  `~/Documents/Projects/CV` by `python3 scripts/build-cv.py`. Only the body
+  of the CV is used, so the address and phone number in its header never
+  reach the site. Re-run the script after updating the CV.
 
 Links like `/#nolligan` open a project directly.
